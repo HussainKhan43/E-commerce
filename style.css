@@ -94,6 +94,9 @@
    .banner-part p{
     text-align: center;
    }
+   .blog-part img{
+    width: 100%;
+   }
    #card{
     width: 105%;
    }
