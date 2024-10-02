@@ -99,27 +99,52 @@
             <br /><br />
             <div class="mb-3">
               <label for="exampleFormControlInput1" class="form-label"
+                > Name:</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="name"
+                placeholder="Enter Your Name"
+              />
+            </div>
+            <span id="nameerror" style="color: red;"></span>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
                 >Email address:</label
               >
               <input
                 type="email"
                 class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="Your Email Address"
+                id="email"
+                placeholder="Enter Email Address"
               />
             </div>
+            <span id="emailerror" style="color: red;"></span>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Phone Number:</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="phonenum"
+                placeholder="Enter Contact Number"
+              />
+            </div>
+            <span id="phonenumerror" style="color: red;"></span>
             <div class="mb-3">
               <label for="exampleFormControlTextarea1" class="form-label"
                 >Message:</label
               >
               <textarea
                 class="form-control"
-                id="exampleFormControlTextarea1"
+                id="message"
                 rows="6"
                 placeholder="How Can We Help?"
               ></textarea>
             </div>
-            <button type="button" class="btn btn-dark my-4 btn-lg col-lg-12">
+            <button type="button" class="btn btn-dark my-4 btn-lg col-lg-12" onclick="return data();">
               SUBMIT
             </button>
           </div>
