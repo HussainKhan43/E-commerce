@@ -5,11 +5,11 @@ function data() {
     let message = document.getElementById("message").value;
 
     let nameerror = document.getElementById("nameerror");
-    let emailerror = document.getElementById("emailerror"); // Corrected the ID
-    let phonenumerror = document.getElementById("phonenumerror"); // Corrected the ID
+    let emailerror = document.getElementById("emailerror"); 
+    let phonenumerror = document.getElementById("phonenumerror");
 
 
-    if (name === "" || email === "" || message === "" || phonenum === "") { // Fixed missing && operator
+    if (name === "" || email === "" || message === "" || phonenum === "") { 
         alert("All Fields Are Mandatory!");
         return false;
     } 
